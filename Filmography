@@ -1,0 +1,16 @@
+<?php
+$movies = [
+    'Raiders of the Lost Ark'=>['Harrison Ford', 'Karen Allen', 'Paul Freeman', ' Ronald Lacey'],
+    'Indiana Jones and the Last Crusade'=>['Harrison Ford', 'Sean Connery', 'Denholm Elliott'],
+    'Indiana Jones and the Kingdom of the Crystal Skull (but this movie shouldn\'t exist)'=>['Harrison Ford', 'Cate Blanchett', 'Shia LaBeouf'],
+    'Indiana Jones and the Temple of Doom'=>['Harrison Ford', 'Kate Capshaw', 'Ke Huy Quan ']
+];
+foreach($movies as $title => $actors){
+    echo '<br>', $title, ': <br>';
+    foreach($actors as $actor){
+        echo $actor , '<br>';
+    }
+}
+?>
+
+
